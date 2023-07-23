@@ -1,6 +1,6 @@
 // 引入lazy函数，引入Suspense组件包裹所以注册的路由
 import React, { Component, lazy, Suspense } from 'react'
-import { NavLink, Route, Routes } from 'react-router-dom'
+import { Navigate, NavLink, Route, Routes } from 'react-router-dom'
 
 // 懒加载路由组件
 import Loading from './Loading';
@@ -35,6 +35,7 @@ export default class Demo extends Component {
                                     <Routes>
                                         <Route path="/about" element={<About />}></Route>
                                         <Route path="/home" element={<Home />}></Route>
+                                        <Route path="/" element={<Navigate to='about' />}></Route>
                                     </Routes>
                                 </Suspense>
                             </div>

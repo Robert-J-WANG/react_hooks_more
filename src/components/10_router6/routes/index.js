@@ -36,7 +36,6 @@ const routes = [
                     { path: 'detail', element: <Detail /> },
                 ]
             },
-            { path: '', element: <Navigate to='news' /> },
         ]
     },
 
