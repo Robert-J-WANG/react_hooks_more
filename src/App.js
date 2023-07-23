@@ -10,6 +10,7 @@ import Demo6 from './components/6_fragment'
 import Demo7 from './components/7_hooks_useContext和Context'
 import Demo8 from './components/8_renderProps和childrenProps'
 import Demo9 from './components/9_errorBoundary'
+import Demo10 from './components/10_router6'
 
 
 
@@ -27,6 +28,7 @@ export default class App extends Component {
         <Demo7 /> <hr />
         <Demo8 /> <hr />
         <Demo9 /> <hr />
+        <Demo10 /> <hr />
       </div>
     )
   }

@@ -43,15 +43,15 @@ class B extends Component {
 
     state = {
         /* ----------- 正确的数据 ------------------------ */
-        // users: [
-        //     { id: '001', name: 'Peter', age: 18 },
-        //     { id: '002', name: 'Peter1', age: 19 },
-        //     { id: '003', name: 'Peter2', age: 20 },
-        //     { id: '004', name: 'Peter3', age: 21 },
-        // ]
+        users: [
+            { id: '001', name: 'Peter', age: 18 },
+            { id: '002', name: 'Peter1', age: 19 },
+            { id: '003', name: 'Peter2', age: 20 },
+            { id: '004', name: 'Peter3', age: 21 },
+        ]
 
         /* ----------- 错误的数据 ------------------------ */
-        users: 'dfafdsa'
+        // users: 'dfafdsa'
     }
     render() {
         return (
